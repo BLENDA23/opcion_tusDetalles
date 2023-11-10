@@ -1,0 +1,225 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+hr {
+    border: 1px solid #E5E5E5; /* Color de la línea */
+    margin: 1px 0; /* Margen superior e inferior para separación */
+    width: 100%;
+}
+
+.headerCheckout {
+    width: 75%;
+    height: 69px;
+    padding-left: 192px;
+    padding-right: 192px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #FFF241;
+    border-top: 8px #FFDA00 solid;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.btn_light {
+    width: auto;
+    height: 45px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+    border: none;
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: #F5F5F5
+}
+
+.strepper {
+    width: 460px;
+    height: 27px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: inline-flex;
+    font-family: Inter;
+    color: var(--grey-600, #85888B);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152%; /* 21.28px */
+    letter-spacing: 0.035px;
+}
+
+.step {
+    width: 117px;
+    height: 27px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+}
+
+.form {
+    padding: 24px;
+    background: white; 
+    border-radius: 8px; 
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    gap: 16px; 
+    display: inline-flex;
+    font-size: 18px;
+    font-family: 'Inter';
+}
+
+.direccion {
+    padding: 16px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    display: flex; /* Cambiado a flex en lugar de inline-flex */
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.direccion div {
+    flex: 1;
+  }
+
+
+.footer {
+    width: 576px;
+    height: 45px;
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+}
+.btn_light2 {
+    width: 232px;
+    height: 45px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #FFF241;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    display: inline-flex;
+}
+.resumenCompra {
+    width: 408px;
+    align-items: start;
+    padding: 24px;
+    background: white;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+    margin: 10px;
+}
+.datosCliente {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    text-align: left;
+}
+.datosCliente p {
+    margin-bottom: 5px; 
+}
+.productos{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+}
+
+.pagoTotal {
+    width: 360px;
+    height: 45px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 4px;
+    display: inline-flex;
+}
+
+.pagoTotal div:first-child {
+    margin-right: auto; 
+}
+
+.pagoTotal div:last-child {
+    margin-left: auto;      
+}
+.contenido{
+    width: 80%; 
+    margin: 20px auto 0;
+   
+    overflow: hidden; 
+}
+.numberActivo {
+    width: 28;
+    height: 28;
+    background-color: #0e0e0e; /* Puedes cambiar esto al color que desees */
+    border-radius: 50%; /* Esto hace que el div sea circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFB85; /* Color del texto dentro del círculo */
+    font-weight: bold; /* Peso de la fuente */
+    font-size: 14px;
+  }
+.number {
+    width: 28;
+    height: 28;
+    background-color: #FFFB85; /* Puedes cambiar esto al color que desees */
+    border-radius: 50%; /* Esto hace que el div sea circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #85888B; /* Color del texto dentro del círculo */
+    font-weight: bold; /* Peso de la fuente */
+    font-size: 14px;
+}
+#parrafo1 {
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 600;
+    color: rgba(30, 32, 35, 1);
+}
+#parrafo2 {
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+    color: rgba(30, 32, 35, 1);
+}
+#parrafo3{
+    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: rgba(133, 136, 139, 1);
+}
+#parrafo4{
+    font-size: 12px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(0, 82, 204, 1);
+}
+#parrafo5{
+    font-size: 12px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(0, 82, 204, 1);
+    font-weight: bold;
+}
